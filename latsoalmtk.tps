@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=latsoalmtk.tex
 
 [Frame0_View0,0]
-TopLine=29
-Cursor=1839
+TopLine=45
+Cursor=805
 
 [SessionInfo]
 FrameCount=1
