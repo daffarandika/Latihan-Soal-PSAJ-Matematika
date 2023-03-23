@@ -10,6 +10,8 @@
 \usepackage{chngcntr}
 \usepackage{accents}
 \usepackage{pgfplots}
+\usepackage{setspace}
+\usepackage{tikz}
 \usetikzlibrary{arrows}
 \pgfplotsset{compat=1.18}
 
@@ -35,6 +37,7 @@
 
 
 \newcommand{\pemb}{ \textbf{Pembahasan} \\}
+
 
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Large}
@@ -263,6 +266,8 @@ Menggunakan sifat logaritma \ref{log_one}
 	&= 0 \text{(C)}
 \end{align*}
 
+\chapter{Persamaan Kuadrat}
+
 % No. 7
 \item
 Akar -akar penyelesaian persamaan kuadrat $x^2-x-20=0$ adalah \ldots
@@ -275,8 +280,8 @@ Akar -akar penyelesaian persamaan kuadrat $x^2-x-20=0$ adalah \ldots
 \pemb
 Faktorkan Persamaan Kuadrat
 \begin{align*}
-x^2-x-20&=0 \\
-(x+4)(x-5)&=0
+    x^2-x-20&=0 \\
+    (x+4)(x-5)&=0
 \end{align*}
 \begin{center}
 \begin{tabular}{c c c}
@@ -346,12 +351,93 @@ Mencari persamaan kuadrat
 	&= x^2-6x+5 \text{ (E)}
 \end{align*}
 
-\item Diketahui matriks $ P=
-\begin{bmatrix}
-x+2y & 3 \\
-2x-y & -6 \\
-\end{bmatrix}
-$
+\chapter{Matriks}
+
+\section{Istilah-istilah dalam matriks}
+\textit{\textbf{TODO}}
+\section{Operasi Matriks}
+
+Penjumlahan Matriks
+\begin{equation}
+\label{max_add}
+	\begin{bmatrix}
+		a & b \\
+		c & d \\
+	\end{bmatrix}
+	+
+	\begin{bmatrix}
+		e & f \\
+		g & h \\
+	\end{bmatrix}
+	= 
+	\begin{bmatrix}
+		a + e & b + f \\
+		c + g & d + h \\
+	\end{bmatrix}
+\end{equation}
+
+Pengurangan Matriks
+\begin{equation}
+\label{max_sub}
+	\begin{bmatrix}
+		a & b \\
+		c & d \\
+	\end{bmatrix}
+	-
+	\begin{bmatrix}
+		e & f \\
+		g & h \\
+	\end{bmatrix}
+	= 
+	\begin{bmatrix}
+		a - e & b - f \\
+		c - g & d - h \\
+	\end{bmatrix}
+\end{equation}
+
+
+Transposisi Matriks
+\begin{equation}
+\label{max_transp}
+    A = \begin{bmatrix}
+		a & b & c\\
+		d & e & f\\
+	\end{bmatrix}
+	\to
+	A^{T} = \begin{bmatrix}
+		a & d \\
+		b & e \\
+		c & f \\
+	\end{bmatrix}
+\end{equation}
+
+Invers Matrix Ordo 2 x 2
+\begin{equation}
+\label{max_transp}
+    A = \begin{bmatrix}
+		a & b & c\\
+		d & e & f\\
+	\end{bmatrix}
+	\to
+	A^{T} = \begin{bmatrix}
+		a & d \\
+		b & e \\
+		c & f \\
+	\end{bmatrix}
+\end{equation}
+\begin{doublespace}
+    \item Diketahui matriks $ P=
+	    \begin{bmatrix}
+		    x+2y & 3 \\
+		    2x-y & -6 \\
+	    \end{bmatrix}
+	    $  dan $Q=
+	    \begin{bmatrix}
+		    3 & -2 \\
+		    2 & -1 \\
+	    \end{bmatrix}
+	    $. Jika $P^{T} = Q$ maka nilai $4x-3y$ adalah \ldots
+\end{doublespace}
 
 
 \end{enumerate}
