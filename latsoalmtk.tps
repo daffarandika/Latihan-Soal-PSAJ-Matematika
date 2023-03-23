@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1690
-NormalPos.bottom=539
+NormalPos.right=1916
+NormalPos.bottom=525
 Class=LaTeXView
 Document=latsoalmtk.tex
 
 [Frame0_View0,0]
-TopLine=45
-Cursor=805
+TopLine=201
+Cursor=5421
 
 [SessionInfo]
 FrameCount=1
