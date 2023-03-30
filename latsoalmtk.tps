@@ -12,12 +12,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1916
-NormalPos.bottom=525
+NormalPos.bottom=867
 Class=LaTeXView
 Document=latsoalmtk.tex
 
 [Frame0_View0,0]
-TopLine=201
+TopLine=560
 Cursor=5421
 
 [SessionInfo]
